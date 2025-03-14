@@ -9,3 +9,11 @@ This is a template for Railway that helps you get started with deploying the [Po
 - PostgreSQL server
 - Ponder indexer
   - Environment variables pre-populated with the database and common RPCs
+  - Applies the `--schema` parameter to enable zero-downtime deployments
+
+## Next Steps
+
+- Add ABIs under `/abis`
+- Add contract definitions under `/ponder.config.ts`
+- Define the schema in `/ponder.schema.ts`
+- Read the [Ponder docs](https://ponder.sh/docs/getting-started/new-project)
