@@ -1,7 +1,7 @@
 import { createConfig } from "ponder";
 import { http } from "viem";
 
-import { ExampleContractAbi } from "./abis/ExampleContractAbi";
+import { ChainlinkPriceFeedAbi } from "./abis/ChainlinkPriceFeed";
 
 export default createConfig({
   networks: {
@@ -11,11 +11,11 @@ export default createConfig({
     },
   },
   contracts: {
-    ExampleContract: {
+    ETHUSDPriceFeed: {
       network: "mainnet",
-      abi: ExampleContractAbi,
-      address: "0x0000000000000000000000000000000000000000",
-      startBlock: 1234567,
+      abi: ChainlinkPriceFeedAbi,
+      address: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+      startBlock: 22000000,
     },
   },
 });
