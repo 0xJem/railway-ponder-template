@@ -17,6 +17,15 @@ This is a template for Railway that helps you get started with deploying the [Po
 
 ## Next Steps
 
+Adding indexing of specific contracts will require changes to the Ponder installation. To do this, perform the following:
+
+- Access the `indexer` service in Railway
+- Click on the "Settings" tab
+- Click on the "Eject" button next to "Upstream Repo"
+  - This will offer to create a new repo in a GitHub organisation of your choosing. After that, you can make changes.
+
+Following creation of your own repo for source code:
+
 - Add ABIs under `/abis`
 - Add contract definitions under `/ponder.config.ts`
 - Define the schema in `/ponder.schema.ts`
