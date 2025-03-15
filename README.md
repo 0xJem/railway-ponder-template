@@ -10,6 +10,8 @@ This is a template for Railway that helps you get started with deploying the [Po
 - Ponder indexer
   - Environment variables pre-populated with the database and common RPCs
   - Applies the `--schema` parameter to enable zero-downtime deployments
+  - Exposes GraphQL at the `/graphql` endpoint
+  - Exposes the Ponder SQL API at the `/sql/` endpoint
 
 ## Next Steps
 
