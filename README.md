@@ -12,6 +12,7 @@ This is a template for Railway that helps you get started with deploying the [Po
   - Applies the `--schema` parameter to enable zero-downtime deployments
   - Exposes GraphQL at the `/graphql` endpoint
   - Exposes the Ponder SQL API at the `/sql/` endpoint
+  - Sample indexing of the Chainlink ETH-USD price feed
 
 ## Next Steps
 
