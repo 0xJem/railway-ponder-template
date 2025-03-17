@@ -9,6 +9,7 @@
     "db": "ponder db",
     "codegen": "ponder codegen",
     "lint": "biome check --write",
+    "lint:check": "biome check",
     "typecheck": "tsc"
   },
   "dependencies": {
