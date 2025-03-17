@@ -14,7 +14,7 @@ export default createConfig({
     ETHUSDPriceFeed: {
       network: "mainnet",
       abi: ChainlinkPriceFeedAbi,
-      address: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+      address: "0x7d4E742018fb52E48b08BE73d041C18B21de6Fb5",
       startBlock: 22000000,
     },
   },
