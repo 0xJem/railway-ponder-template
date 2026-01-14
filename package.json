@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "hono": "^4.11.4",
-    "ponder": "^0.15.17",
-    "viem": "^2.43.4"
+    "ponder": "^0.16.1",
+    "viem": "^2.44.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.10",
+    "@biomejs/biome": "^2.3.11",
     "@types/node": "^22.19.3",
     "typescript": "^5.9.3"
   },
