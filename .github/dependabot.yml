@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # Enable version updates for dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Check for security updates only (optional - remove versioning to get all updates)
+    open-pull-requests-limit: 10
+    # Group dependencies by major version to reduce PR noise
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "@types/node"
+    # Allow dependabot to run on GitHub Actions
+    commit-message:
+      prefix: "deps"
+      include: "scope"
