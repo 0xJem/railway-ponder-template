@@ -13,11 +13,11 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.11.3
-        version: 4.11.3
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: ^0.15.17
-        version: 0.15.17(@opentelemetry/api@1.9.0)(@types/node@22.19.3)(hono@4.11.3)(typescript@5.9.3)(viem@2.43.4(typescript@5.9.3))
+        version: 0.15.17(@opentelemetry/api@1.9.0)(@types/node@22.19.3)(hono@4.11.4)(typescript@5.9.3)(viem@2.43.4(typescript@5.9.3))
       viem:
         specifier: ^2.43.4
         version: 2.43.4(typescript@5.9.3)
@@ -840,8 +840,8 @@ packages:
     resolution: {integrity: sha512-cvVIBILwuoSyD54U4cF/UXDh5yAobhNV/tPygI4lZhgOIJQE/WLWC4waBRb4I6bDVYb3OVx3lfHbaQOEoUD5sg==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
-  hono@4.11.3:
-    resolution: {integrity: sha512-PmQi306+M/ct/m5s66Hrg+adPnkD5jiO6IjA7WhWw0gSBSo1EcRegwuI1deZ+wd5pzCGynCcn2DprnE4/yEV4w==}
+  hono@4.11.4:
+    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
     engines: {node: '>=16.9.0'}
 
   http-terminator@3.2.0:
@@ -1529,9 +1529,9 @@ snapshots:
       '@repeaterjs/repeater': 3.0.6
       tslib: 2.8.1
 
-  '@hono/node-server@1.19.5(hono@4.11.3)':
+  '@hono/node-server@1.19.5(hono@4.11.4)':
     dependencies:
-      hono: 4.11.3
+      hono: 4.11.4
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1911,7 +1911,7 @@ snapshots:
 
   graphql@16.8.2: {}
 
-  hono@4.11.3: {}
+  hono@4.11.4: {}
 
   http-terminator@3.2.0:
     dependencies:
@@ -2080,7 +2080,7 @@ snapshots:
       sonic-boom: 3.8.1
       thread-stream: 2.7.0
 
-  ponder@0.15.17(@opentelemetry/api@1.9.0)(@types/node@22.19.3)(hono@4.11.3)(typescript@5.9.3)(viem@2.43.4(typescript@5.9.3)):
+  ponder@0.15.17(@opentelemetry/api@1.9.0)(@types/node@22.19.3)(hono@4.11.4)(typescript@5.9.3)(viem@2.43.4(typescript@5.9.3)):
     dependencies:
       '@babel/code-frame': 7.27.1
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
@@ -2088,7 +2088,7 @@ snapshots:
       '@escape.tech/graphql-armor-max-aliases': 2.6.2
       '@escape.tech/graphql-armor-max-depth': 2.4.2
       '@escape.tech/graphql-armor-max-tokens': 2.5.1
-      '@hono/node-server': 1.19.5(hono@4.11.3)
+      '@hono/node-server': 1.19.5(hono@4.11.4)
       '@ponder/utils': 0.2.16(typescript@5.9.3)(viem@2.43.4(typescript@5.9.3))
       abitype: 0.10.3(typescript@5.9.3)
       ansi-escapes: 7.2.0
@@ -2101,7 +2101,7 @@ snapshots:
       glob: 10.5.0
       graphql: 16.8.2
       graphql-yoga: 5.17.1(graphql@16.8.2)
-      hono: 4.11.3
+      hono: 4.11.4
       http-terminator: 3.2.0
       kysely: 0.26.3
       pg: 8.16.3
