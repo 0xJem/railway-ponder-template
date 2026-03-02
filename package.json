@@ -13,12 +13,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": "^4.11.9",
+    "hono": "^4.12.3",
     "ponder": "^0.16.3",
-    "viem": "^2.46.2"
+    "viem": "^2.46.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
+    "@biomejs/biome": "^2.4.4",
     "@types/node": "^22.19.11",
     "typescript": "^5.9.3"
   },
