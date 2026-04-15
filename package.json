@@ -26,12 +26,13 @@
   },
   "pnpm": {
     "overrides": {
+      "@hono/node-server": ">=1.19.13",
       "drizzle-orm": ">=0.45.2",
       "kysely": ">=0.28.14",
       "vite": ">=6.4.2"
     }
   },
   "engines": {
-    "node": ">=18.14"
+    "node": ">=24"
   }
 }
