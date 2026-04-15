@@ -17,12 +17,12 @@
   "dependencies": {
     "hono": "^4.12.14",
     "ponder": "^0.16.6",
-    "viem": "^2.46.2"
+    "viem": "^2.47.18"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
+    "@biomejs/biome": "^2.4.12",
     "@types/node": "^22.19.11",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "pnpm": {
     "overrides": {
