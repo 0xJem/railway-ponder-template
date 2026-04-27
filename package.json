@@ -15,14 +15,14 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": "^4.12.14",
+    "hono": "^4.12.15",
     "ponder": "^0.16.6",
-    "viem": "^2.46.2"
+    "viem": "^2.48.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
+    "@biomejs/biome": "^2.4.13",
     "@types/node": "^22.19.11",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "pnpm": {
     "overrides": {
