@@ -15,7 +15,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": "^4.12.15",
+    "hono": ">=4.12.16",
     "ponder": "^0.16.6",
     "viem": "^2.48.4"
   },
@@ -28,6 +28,8 @@
     "overrides": {
       "@hono/node-server": ">=1.19.13",
       "drizzle-orm": ">=0.45.2",
+      "fast-uri": ">=3.1.2",
+      "hono": ">=4.12.16",
       "kysely": ">=0.28.14",
       "postcss": ">=8.5.10",
       "vite": ">=6.4.2"
