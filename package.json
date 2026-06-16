@@ -5,7 +5,6 @@
   "type": "module",
   "packageManager": "pnpm@10.33.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "ponder dev",
     "start": "ponder start",
     "db": "ponder db",
@@ -15,25 +14,14 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": ">=4.12.16",
+    "hono": "^4.12.25",
     "ponder": "^0.16.6",
-    "viem": "^2.48.4"
+    "viem": "^2.52.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.13",
     "@types/node": "^22.19.11",
     "typescript": "^6.0.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "@hono/node-server": ">=1.19.13",
-      "drizzle-orm": ">=0.45.2",
-      "fast-uri": ">=3.1.2",
-      "hono": ">=4.12.16",
-      "kysely": ">=0.28.17",
-      "postcss": ">=8.5.10",
-      "vite": ">=6.4.2"
-    }
   },
   "engines": {
     "node": ">=24"
