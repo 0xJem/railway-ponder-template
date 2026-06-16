@@ -5,13 +5,13 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@hono/node-server': '>=1.19.13'
-  drizzle-orm: '>=0.45.2'
+  ponder>@hono/node-server@<1.19.13: '>=1.19.13'
+  ponder>drizzle-orm@<0.45.2: '>=0.45.2'
   esbuild@>=0.17.0 <0.28.1: 0.28.1
-  fast-uri: '>=3.1.2'
-  hono: '>=4.12.25'
+  fast-uri@<3.1.2: '>=3.1.2'
+  hono@<4.12.25: '>=4.12.25'
   kysely@>=0.26.0 <0.28.17: 0.28.17
-  postcss: '>=8.5.10'
+  postcss@<8.5.10: '>=8.5.10'
   ponder>vite@<=6.4.2: '>=6.4.3'
   vite-node>vite@<=6.4.2: '>=6.4.3'
   ws@>=8.0.0 <8.21.0: 8.21.0
@@ -21,7 +21,7 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: '>=4.12.25'
+        specifier: ^4.12.25
         version: 4.12.25
       ponder:
         specifier: ^0.16.6
