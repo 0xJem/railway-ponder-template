@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.15.1",
+  "packageManager": "pnpm@11.25.0",
   "scripts": {
     "dev": "ponder dev",
     "start": "ponder start",
@@ -14,13 +14,13 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": "^4.12.27",
-    "ponder": "^0.16.6",
-    "viem": "^2.52.2"
+    "hono": "^4.13.5",
+    "ponder": "^0.17.8",
+    "viem": "^2.56.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.13",
-    "@types/node": "^22.19.11",
+    "@biomejs/biome": "^2.5.10",
+    "@types/node": "^24.13.3",
     "typescript": "^6.0.3"
   },
   "engines": {
