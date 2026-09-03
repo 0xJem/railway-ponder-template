@@ -14,7 +14,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hono": "^4.12.27",
+    "hono": "^4.12.34",
     "ponder": "^0.16.6",
     "viem": "^2.52.2"
   },
