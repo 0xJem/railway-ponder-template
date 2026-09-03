@@ -12,9 +12,6 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -33,17 +30,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Run pnpm audit and report
-        if: github.event_name == 'pull_request'
-        uses: JamesRobertWiseman/pnpm-audit@a6a8cc297d146014c029926e49d43571e776f85e # v3.2.0
-        with:
-          package_json_path: ./
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          level: moderate
-          fails: true
-          single_comment: true
-          inline: true
-
-      - name: Run pnpm audit on push
-        if: github.event_name == 'push'
+      - name: Run pnpm audit
         run: pnpm audit --audit-level=moderate
