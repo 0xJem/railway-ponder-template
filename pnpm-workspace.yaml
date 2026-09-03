@@ -56,4 +56,3 @@ overrides:
 preferFrozenLockfile: true
 strictDepBuilds: true
 frozenLockfile: true
-packageManagerStrict: true
